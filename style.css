@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    border: solid;
+    border-width: 8px;
+}
+
+.boxes{
+    flex:1;
+    border: dashed;
+    border-width: 1px;
+}
+
+.rows{
+    display: flex;
+}
+
+.container-for-button{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.change-dimensions-button{
+    height: 45px;
+    width: 120px;
+    font-size: 16px;
+    border-radius: 18px;
+}
+
+.colored-boxes{
+    flex:1;
+    border: dashed;
+    border-width: 1px;
+    background-color:green;
+}
